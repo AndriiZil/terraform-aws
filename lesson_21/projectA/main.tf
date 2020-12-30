@@ -7,7 +7,7 @@ module "vpc-default" {
 }
 
 module "vpc-dev" {
-    source = "../modules/aws_network"
+    source = "../modules/aws_network" // or git repository
     env = "development"
     vpc_cidr = "10.100.0.0/16"
     public_subnet_cidrs = ["10.100.1.0/24", "10.100.2.0/24"]
@@ -15,7 +15,7 @@ module "vpc-dev" {
 }
 
 module "vpc-prod" {
-    source = "../modules/aws_network"
+    source = "../modules/aws_network" // or git repository
     env = "production"
     vpc_cidr = "10.10.0.0/16"
     public_subnet_cidrs = ["10.100.1.0/24", "10.10.2.0/24", "10.10.3.0/24"]
@@ -23,7 +23,7 @@ module "vpc-prod" {
 }
 
 module "vpc-test" {
-    source = "../modules/aws_network"
+    source = "../modules/aws_network" // or git repository
     env = "production"
     vpc_cidr = "10.100.0.0/16"
     public_subnet_cidrs = ["10.100.1.0/24", "10.100.2.0/24"]
