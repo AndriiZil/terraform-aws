@@ -1,3 +1,9 @@
+#
+# RDS
+#
+# Andrii Zilnyk
+# --------------------------------------------------
+
 provider "aws" {
     region = "ca-central-1"
 }

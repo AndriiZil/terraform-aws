@@ -1,7 +1,7 @@
 #-------------------------------------------------
 # My Terraform
 #
-# Build WebServer during Bootstrap
+# Build WebServer with depends on
 #
 # Made by Andrii Zilnyk
 #-------------------------------------------------

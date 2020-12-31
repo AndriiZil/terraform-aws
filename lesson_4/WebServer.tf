@@ -1,7 +1,7 @@
 #-------------------------------------------------
 # My Terraform
 #
-# Build WebServer during Bootstrap
+# Build WebServer and cut out data to file template
 #
 # Made by Andrii Zilnyk
 #-------------------------------------------------

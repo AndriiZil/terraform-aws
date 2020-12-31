@@ -1,3 +1,11 @@
+#-------------------------------------------------
+# My Terraform
+#
+# Data Sources and outputs
+#
+# Made by Andrii Zilnyk
+#-------------------------------------------------
+
 provider "aws" {}
 
 data "aws_availability_zones" "working" {}

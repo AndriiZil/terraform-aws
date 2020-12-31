@@ -1,7 +1,7 @@
 # --------------------------------------------------
 # My Terraform
 #
-# Variables
+# Save Config File into S3 Bucket
 #
 # Andrii Zilnyk
 # --------------------------------------------------

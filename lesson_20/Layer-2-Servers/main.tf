@@ -1,3 +1,11 @@
+# --------------------------------------------------
+# My Terraform
+#
+# Get Config File from S3 Bucket
+#
+# Andrii Zilnyk
+# --------------------------------------------------
+
 provider "aws" {
     region = "eu-central-1"
 }

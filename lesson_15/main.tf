@@ -1,3 +1,11 @@
+# --------------------------------------------------
+# My Terraform
+#
+# Commands "local-exec"
+#
+# Andrii Zilnyk
+# --------------------------------------------------
+
 provider "aws" {
     region = "ca-central-1"
 }

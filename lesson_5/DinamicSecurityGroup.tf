@@ -1,7 +1,7 @@
 #-------------------------------------------------
 # My Terraform
 #
-# Build WebServer during Bootstrap
+# Build WebServer with Dynamic Security Group
 #
 # Made by Andrii Zilnyk
 #-------------------------------------------------

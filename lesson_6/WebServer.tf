@@ -1,7 +1,7 @@
 #-------------------------------------------------
 # My Terraform
 #
-# Build WebServer during Bootstrap
+# Build WebServer Lifecycles
 #
 # Made by Andrii Zilnyk
 #-------------------------------------------------

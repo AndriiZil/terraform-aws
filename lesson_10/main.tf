@@ -1,7 +1,7 @@
 #-------------------------------------------------
 # My Terraform
 #
-# Build WebServer during Bootstrap
+# Build WebServers with latest AMI
 #
 # Made by Andrii Zilnyk
 #-------------------------------------------------
